@@ -27,6 +27,7 @@ header {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 }
 
 main {
@@ -118,12 +119,45 @@ margin-bottom: 0.5rem;
     background-color: white;
     color: thistle;
     font-family: 'Playfair Display', serif;
-    padding: 11px 25px;
-    border-radius: 12px;
+    padding: 11px 25x;
+    border-radius: 2px;
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.228);
+}
+
+.mybutton:hover {
+    background-color: orange;
+    transition-duration: 1;
 }
 
 a.mybutton {
     display: inline-block;
     margin-top: 1 0px;
+}
+
+nav a.navbutton {
+    margin-left: 30px;
+    background-color: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 37%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox :last-child{
+    
 }
